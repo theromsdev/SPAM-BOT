@@ -18,8 +18,8 @@ apt install unzip at jq curl -y > /dev/null 2>&1
 mkdir $HOME/SPAM-BOT
 cd SPAM-BOT
 wget $url > /dev/null 2>&1
-unzip spam_bot.zip > /dev/null 2>&1
-rm -f spam_bot.zip > /dev/null 2>&1
+unzip spam-bot.zip > /dev/null 2>&1
+rm -f spam-bot.zip > /dev/null 2>&1
 sleep 3s
 cd $HOME
 clear
